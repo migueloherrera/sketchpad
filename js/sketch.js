@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 function grid($squares) {
 	var $total = $squares * $squares;
-	var $wh = 936/$squares;
+	var $wh = 960/$squares;
 	for(i=1; i<=$total; i++){
 		$('#container').append("<div></div>");
 	}
